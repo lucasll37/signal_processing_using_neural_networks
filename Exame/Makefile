@@ -12,7 +12,7 @@ clean: ## Clean all generated build files in the project.
 
 
 configure: ## Configure the project for building.
-	python3 -m venv ./.venv
+	python -m venv ./.venv
 	@echo "Activating virtual environment..."
 	@source ./.venv/bin/activate && \
 		pip install -r requirements.txt && \

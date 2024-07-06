@@ -48,7 +48,7 @@ def preprocessor(
         [
             ("imputer", ImputeHandler()),
             ("metar", MetarHandler()),
-            ("metaf", MetafHandler()),
+            # ("metaf", MetafHandler()),
             (
                 "satImage",
                 SatelliteImageHandler(
@@ -80,12 +80,12 @@ def preprocessor(
             "metar_BKN_TCU",
             "metar_OVC_CB",
             "metar_OVC_TCU",
-            "metaf_FEW_TCU",
-            "metaf_SCT_TCU",
-            "metaf_BKN_CB",
-            "metaf_BKN_TCU",
-            "metaf_OVC_CB",
-            "metaf_OVC_TCU",
+            # "metaf_FEW_TCU",
+            # "metaf_SCT_TCU",
+            # "metaf_BKN_CB",
+            # "metaf_BKN_TCU",
+            # "metaf_OVC_CB",
+            # "metaf_OVC_TCU",
         ],
         axis=1,
         inplace=True,
